@@ -32,35 +32,55 @@ filter_unmatched_urls = true
 #modify_other_keys = false
 
 [colors]
-#cursor = #dcdccc
-#cursor_foreground = #dcdccc
-foreground = #dcdccc
-foreground_bold = #ffffff
-background = #3f3f3f
+# credit to: https://github.com/khamer/base16-termite/blob/master/themes/base16-materia.config
+# and:
+# Base16 Materia
+# Author: Defman21
 
-# 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+foreground      = #CDD3DE
+foreground_bold = #D5DBE5
+cursor          = #D5DBE5
+background      = #263238
 
-# if unset, will reverse foreground and background
-highlight = #2f2f2f
+# 16 color space
 
-# colors from color0 to color254 can be set
-color0 = #3f3f3f
-color1 = #705050
-color2 = #60b48a
-color3 = #dfaf8f
-color4 = #506070
-color5 = #dc8cc3
-color6 = #8cd0d3
-color7 = #dcdccc
-color8 = #709080
-color9 = #dca3a3
-color10 = #c3bf9f
-color11 = #f0dfaf
-color12 = #94bff3
-color13 = #ec93d3
-color14 = #93e0e3
-color15 = #ffffff
+# Black, Gray, Silver, White
+color0  = #263238
+color8  = #707880
+color7  = #CDD3DE
+color15 = #FFFFFF
+
+# Red
+color1  = #EC5F67
+color9  = #EC5F67
+
+# Green
+color2  = #8BD649
+color10 = #8BD649
+
+# Yellow
+color3  = #FFCC00
+color11 = #FFCC00
+
+# Blue
+color4  = #89DDFF
+color12 = #89DDFF
+
+# Purple
+color5  = #82AAFF
+color13 = #82AAFF
+
+# Teal
+color6  = #80CBC4
+color14 = #80CBC4
+
+# Extra colors
+color16 = #EA9560
+color17 = #EC5F67
+color18 = #2C393F
+color19 = #37474F
+color20 = #C9CCD3
+color21 = #D5DBE5
 
 [hints]
 #font = Monospace 12
