@@ -32,55 +32,54 @@ filter_unmatched_urls = true
 #modify_other_keys = false
 
 [colors]
-# credit to: https://github.com/khamer/base16-termite/blob/master/themes/base16-materia.config
-# and:
-# Base16 Materia
-# Author: Defman21
+# credit to: Khamer (https://github.com/khamer/base16-termite/blob/master/themes/base16-materia.config) and
+# Base16 Ocean
+# Author: Chris Kempson (http://chriskempson.com)
 
-foreground      = #CDD3DE
-foreground_bold = #D5DBE5
-cursor          = #D5DBE5
-background      = #263238
+foreground      = #c0c5ce
+foreground_bold = #dfe1e8
+cursor          = #dfe1e8
+background      = #2b303b
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  = #263238
-color8  = #707880
-color7  = #CDD3DE
-color15 = #FFFFFF
+color0  = #2b303b
+color8  = #65737e
+color7  = #c0c5ce
+color15 = #eff1f5
 
 # Red
-color1  = #EC5F67
-color9  = #EC5F67
+color1  = #bf616a
+color9  = #bf616a
 
 # Green
-color2  = #8BD649
-color10 = #8BD649
+color2  = #a3be8c
+color10 = #a3be8c
 
 # Yellow
-color3  = #FFCC00
-color11 = #FFCC00
+color3  = #ebcb8b
+color11 = #ebcb8b
 
 # Blue
-color4  = #89DDFF
-color12 = #89DDFF
+color4  = #8fa1b3
+color12 = #8fa1b3
 
 # Purple
-color5  = #82AAFF
-color13 = #82AAFF
+color5  = #b48ead
+color13 = #b48ead
 
 # Teal
-color6  = #80CBC4
-color14 = #80CBC4
+color6  = #96b5b4
+color14 = #96b5b4
 
 # Extra colors
-color16 = #EA9560
-color17 = #EC5F67
-color18 = #2C393F
-color19 = #37474F
-color20 = #C9CCD3
-color21 = #D5DBE5
+color16 = #d08770
+color17 = #ab7967
+color18 = #343d46
+color19 = #4f5b66
+color20 = #a7adba
+color21 = #dfe1e8
 
 [hints]
 #font = Monospace 12

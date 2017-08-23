@@ -159,27 +159,29 @@ bar {
         status_command i3status
 }
 
-# commands to run after setup
-exec firefox
+# Bind firefox to a key combo
+bindsym $mod+Shift+f exec firefox
 
 # Color theme courtesy of:
-# Khamer, https://github.com/khamer/base16-i3/blob/master/colors/base16-materia.config
-# Base16 Materia
-# Author: Defman21
+# Khamer, https://github.com/khamer/base16-i3/blob/master/colors/base16-materia.config and
+## Base16 Ocean
+# Author: Chris Kempson (http://chriskempson.com)
+#
+# You can use these variables anywhere in the i3 configuration file.
 
-set $base00 #263238
-set $base01 #2C393F
-set $base02 #37474F
-set $base03 #707880
-set $base04 #C9CCD3
-set $base05 #CDD3DE
-set $base06 #D5DBE5
-set $base07 #FFFFFF
-set $base08 #EC5F67
-set $base09 #EA9560
-set $base0A #FFCC00
-set $base0B #8BD649
-set $base0C #80CBC4
-set $base0D #89DDFF
-set $base0E #82AAFF
-set $base0F #EC5F67
+set $base00 #2b303b
+set $base01 #343d46
+set $base02 #4f5b66
+set $base03 #65737e
+set $base04 #a7adba
+set $base05 #c0c5ce
+set $base06 #dfe1e8
+set $base07 #eff1f5
+set $base08 #bf616a
+set $base09 #d08770
+set $base0A #ebcb8b
+set $base0B #a3be8c
+set $base0C #96b5b4
+set $base0D #8fa1b3
+set $base0E #b48ead
+set $base0F #ab7967
